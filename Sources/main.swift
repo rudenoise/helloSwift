@@ -1,6 +1,6 @@
 if Process.arguments.count != 2 {
-    print("Hello world!")
+  print("Hello world!")
 } else {
-    let name = Process.arguments[1]
-    sayHello(name:name)
+  let name = Process.arguments[1]
+  sayHello(name:name)
 }
