@@ -10,5 +10,6 @@ I followed this [guide](https://swift.org/getting-started/#using-the-build-syste
 
 ```
 swift build
-.build/debug/helloSwift rudenoise
+.build/debug/hello rudenoise
+swift test
 ```
