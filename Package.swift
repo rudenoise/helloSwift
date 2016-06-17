@@ -5,8 +5,13 @@ let package = Package(
     targets: [
       Target(
         name: "hello",
-        dependencies: [.Target(name: "helloSwift")]),
+        dependencies: [
+          .Target(name: "Greeter"),
+          .Target(name: "Bye"),
+        ]),
       Target(
-        name: "helloSwift")
+        name: "Greeter"),
+      Target(
+        name: "Bye"),
     ]
 )

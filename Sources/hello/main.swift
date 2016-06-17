@@ -1,4 +1,4 @@
-import helloSwift
+import Greeter
 
 if Process.arguments.count != 2 {
   print("Hello world!")
